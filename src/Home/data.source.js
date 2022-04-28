@@ -400,7 +400,7 @@ export const Footer10DataSource = {
             },
             {
               name: 'link2',
-              href: 'https://tinycard.tech',
+              href: 'https://tinycard.cn',
               children: (
                 <span>
                   <p>TinyCard - 你的多重身份名片</p>
