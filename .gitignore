@@ -352,3 +352,21 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 .DS_Store
+src/.DS_Store
+build/asset-manifest.json
+build/favicon.ico
+build/index.html
+build/manifest.json
+build/precache-manifest.d206366aee1cad264b229e945970cc7f.js
+build/service-worker.js
+build/static/css/2.1adca47e.chunk.css
+build/static/css/2.1adca47e.chunk.css.map
+build/static/css/main.cee1eaaa.chunk.css
+build/static/css/main.cee1eaaa.chunk.css.map
+build/static/js/2.49418dec.chunk.js
+build/static/js/2.49418dec.chunk.js.map
+build/static/js/main.2b37717b.chunk.js
+build/static/js/main.2b37717b.chunk.js.map
+build/static/js/runtime~main.8c97409f.js
+build/static/js/runtime~main.8c97409f.js.map
+src/.DS_Store
