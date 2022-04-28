@@ -1,5 +1,5 @@
 import React from 'react';
-export const Nav30DataSource = {
+export const Nav31DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
   page: { className: 'home-page' },
   logo: {
@@ -11,7 +11,7 @@ export const Nav30DataSource = {
     className: 'header3-menu',
     children: [
       {
-        name: 'item1',
+        name: 'item0',
         className: 'header3-item',
         children: {
           href: '#Banner5_0',
@@ -25,10 +25,12 @@ export const Nav30DataSource = {
               name: 'text',
             },
           ],
+          className: 'l2io1wfup3-editor_css',
         },
+        subItem: null,
       },
       {
-        name: 'item2',
+        name: 'item1',
         className: 'header3-item',
         children: {
           href: '#Feature4_0',
@@ -45,15 +47,34 @@ export const Nav30DataSource = {
         },
       },
       {
-        name: 'item3',
+        name: 'item2',
         className: 'header3-item',
         children: {
-          href: '#Content1_0',
+          href: '#Feature2_0',
           children: [
             {
               children: (
                 <span>
-                  <p>体验</p>
+                  <span>
+                    <p>体验</p>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
+      {
+        name: 'item3',
+        className: 'header3-item',
+        children: {
+          href: '#Footer1_0',
+          children: [
+            {
+              children: (
+                <span>
+                  <p>关于</p>
                 </span>
               ),
               name: 'text',
@@ -62,6 +83,7 @@ export const Nav30DataSource = {
         },
       },
     ],
+    subItem: {},
   },
   mobileMenu: { className: 'header3-mobile-menu' },
 };
@@ -69,7 +91,7 @@ export const Banner50DataSource = {
   wrapper: { className: 'home-page-wrapper banner5' },
   page: { className: 'home-page banner5-page' },
   childWrapper: {
-    className: 'banner5-title-wrapper',
+    className: 'banner5-title-wrapper l2ionz7czg-editor_css',
     children: [
       {
         name: 'title',
@@ -78,7 +100,7 @@ export const Banner50DataSource = {
             <p>小云名片</p>
           </span>
         ),
-        className: 'banner5-title',
+        className: 'banner5-title l2inb13r3ac-editor_css',
       },
       {
         name: 'explain',
@@ -96,9 +118,14 @@ export const Banner50DataSource = {
           <span>
             <span>
               <span>
-                <p>
-                  当你面对不同类型的客户；不同圈子的合作伙伴；不同的网络社交平台时，你的身份需要从多个角色（如总裁、摄影师、组织发起人）来回切换，此时多个身份的你应该拥有多个身份的名片，小云名片为此而生。<br />
-                </p>
+                <span>
+                  <span>
+                    <p>
+                      面对不同类型的客户；不同圈子的合作伙伴；不同的网络社交环境，每个人都应该拥有不同环境下的不同身份。面对企业客户，你是总裁；面对模特，你是摄影师；面对私域社群，你是组织发起人...
+                      多个身份的你应该拥有多个身份的名片，小云名片为此而生。化繁为简，极致简单。<br />
+                    </p>
+                  </span>
+                </span>
               </span>
             </span>
           </span>
@@ -108,13 +135,15 @@ export const Banner50DataSource = {
         name: 'button',
         className: 'banner5-button-wrapper',
         children: {
-          href: '#',
-          className: 'banner5-button',
+          href: '#Feature2_0',
+          className: 'banner5-button l2incomvjf-editor_css',
           type: 'primary',
           children: (
             <span>
               <span>
-                <p>立即体验</p>
+                <span>
+                  <p>立即体验</p>
+                </span>
               </span>
             </span>
           ),
@@ -131,12 +160,16 @@ export const Banner50DataSource = {
 export const Feature40DataSource = {
   wrapper: { className: 'home-page-wrapper content6-wrapper' },
   OverPack: {
-    className: 'home-page content6',
+    className: 'home-page content6 l2iknu6x9g-editor_css',
     appear: true,
     always: true,
     playScale: [0.5, 0.5],
   },
-  textWrapper: { className: 'content6-text', xs: 24, md: 10 },
+  textWrapper: {
+    className: 'content6-text l2ikqofid26-editor_css',
+    xs: 24,
+    md: 10,
+  },
   titleWrapper: {
     className: 'title-wrapper',
     children: [
@@ -147,11 +180,11 @@ export const Feature40DataSource = {
             <p>小云名片特点</p>
           </span>
         ),
-        className: 'title-h1',
+        className: 'title-h1 l2inhrfvsm8-editor_css',
       },
       {
         name: 'content',
-        className: 'title-content',
+        className: 'title-content l2inio6vjzu-editor_css',
         children: (
           <span>
             <span>
@@ -179,7 +212,7 @@ export const Feature40DataSource = {
           className: 'content6-icon',
         },
         title: {
-          className: 'content6-title',
+          className: 'content6-title l2iniygyf0r-editor_css',
           children: (
             <span>
               <p>简单</p>
@@ -187,7 +220,7 @@ export const Feature40DataSource = {
           ),
         },
         content: {
-          className: 'content6-content',
+          className: 'content6-content l2injeznc0j-editor_css',
           children: (
             <span>
               <p>
@@ -205,7 +238,7 @@ export const Feature40DataSource = {
             'https://zos.alipayobjects.com/rmsportal/xMSBjgxBhKfyMWX.png',
         },
         title: {
-          className: 'content6-title',
+          className: 'content6-title l2inj5o09pb-editor_css',
           children: (
             <span>
               <span>
@@ -233,7 +266,7 @@ export const Feature40DataSource = {
             'https://zos.alipayobjects.com/rmsportal/MNdlBNhmDBLuzqp.png',
         },
         title: {
-          className: 'content6-title',
+          className: 'content6-title l2inj96gzxs-editor_css',
           children: (
             <span>
               <span>
@@ -258,17 +291,23 @@ export const Feature40DataSource = {
     ],
   },
 };
-export const Content10DataSource = {
-  wrapper: { className: 'home-page-wrapper content1-wrapper' },
-  OverPack: { className: 'home-page content1', playScale: 0.3 },
-  imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
+export const Feature20DataSource = {
+  wrapper: {
+    className: 'home-page-wrapper content2-wrapper l2ikwa3qcd7-editor_css',
+  },
+  OverPack: { className: 'home-page content2', playScale: 0.3 },
+  imgWrapper: { className: 'content2-img', md: 10, xs: 24 },
   img: {
     children:
       'https://tva1.sinaimg.cn/large/e6c9d24egy1h1ojv4p8sij20by0bywf4.jpg',
   },
-  textWrapper: { className: 'content1-text', md: 14, xs: 24 },
+  textWrapper: {
+    className: 'content2-text l2ikwqo4tvh-editor_css',
+    md: 14,
+    xs: 24,
+  },
   title: {
-    className: 'content1-title',
+    className: 'content2-title l2ini6duwmt-editor_css',
     children: (
       <span>
         <p>微信扫一扫立即体验</p>
@@ -276,22 +315,182 @@ export const Content10DataSource = {
     ),
   },
   content: {
-    className: 'content1-content',
+    className: 'content2-content l2ink5chepo-editor_css',
     children: (
       <span>
-        <p>无需下载 App，微信扫一扫即可体验。</p>
+        <span>
+          <span>
+            <p>
+              小云名片基于微信生态开发的小程序，无需下载 App
+              即可扫码体验，遵循即用即离的产品原则。
+            </p>
+          </span>
+        </span>
       </span>
     ),
   },
 };
-export const Footer00DataSource = {
-  wrapper: { className: 'home-page-wrapper footer0-wrapper' },
-  OverPack: { className: 'home-page footer0', playScale: 0.05 },
+export const Footer10DataSource = {
+  wrapper: { className: 'home-page-wrapper footer1-wrapper' },
+  OverPack: { className: 'footer1', playScale: 0.2 },
+  block: {
+    className: 'home-page',
+    gutter: 0,
+    children: [
+      {
+        name: 'block0',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: {
+          className: 'logo',
+          children:
+            'https://6563-ecard-prod-8gzw5g99e3ec7228-1306153372.tcb.qcloud.la/static/2.svg',
+        },
+        childWrapper: {
+          className: 'slogan',
+          children: [
+            {
+              name: 'content0',
+              children: (
+                <span>
+                  <p>小云名片，您的多重身份电子名片。</p>
+                </span>
+              ),
+              className: 'l2iocixbtw-editor_css',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block1',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: { children: '产品' },
+        childWrapper: {
+          children: [
+            {
+              name: 'link0',
+              href: 'https://teem.cool',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>Teem - 真的可以见到陌生人</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+              target: '_blank',
+            },
+            {
+              name: 'link1',
+              href: 'https://tinypay.tech',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>TinyPay - 支付带动自动化增长</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+              target: '_blank',
+            },
+            {
+              name: 'link2',
+              href: 'https://tinycard.tech',
+              children: (
+                <span>
+                  <p>TinyCard - 你的多重身份名片</p>
+                </span>
+              ),
+              target: '_blank',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block2',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: { children: '关于' },
+        childWrapper: {
+          children: [
+            {
+              href: 'https://qdstorm.com',
+              name: 'link0',
+              children: (
+                <span>
+                  <p>奇点风暴</p>
+                </span>
+              ),
+              target: '_blank',
+            },
+            {
+              href: 'mailto:hi@qdstorm.com',
+              name: 'link1',
+              children: '联系我们',
+              target: '_blank',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block3',
+        xs: 24,
+        md: 6,
+        className: 'block',
+        title: {
+          children: (
+            <span>
+              <span>
+                <p>友情链接</p>
+              </span>
+            </span>
+          ),
+        },
+        childWrapper: {
+          children: [
+            {
+              href: 'https://www.bug.pm',
+              name: 'link0',
+              children: (
+                <span>
+                  <p>Bug.pm</p>
+                </span>
+              ),
+              target: '_blank',
+            },
+            {
+              href: 'https://github.com/crosslee',
+              name: 'link1',
+              children: (
+                <span>
+                  <p>作者 GitHub</p>
+                </span>
+              ),
+              target: '_blank',
+            },
+          ],
+        },
+      },
+    ],
+  },
+  copyrightWrapper: { className: 'copyright-wrapper' },
+  copyrightPage: { className: 'home-page' },
   copyright: {
     className: 'copyright',
     children: (
       <span>
-        <span>©2022 小云名片&nbsp;All Rights Reserved</span>
+        <span>
+          ©2018 by{' '}
+          <a href="https://tinycard.cn" target="_blank">
+            TinyCard
+          </a>&nbsp;All Rights Reserved
+        </span>
       </span>
     ),
   },
