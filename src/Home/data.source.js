@@ -5,7 +5,7 @@ export const Nav31DataSource = {
   logo: {
     className: 'header3-logo',
     children:
-      'https://6563-ecard-prod-8gzw5g99e3ec7228-1306153372.tcb.qcloud.la/static/1.svg',
+      'https://6563-ecard-dev-1gt7jripa5d3a742-1306153372.tcb.qcloud.la/static/tinycard.svg',
   },
   Menu: {
     className: 'header3-menu',
@@ -97,7 +97,7 @@ export const Banner50DataSource = {
         name: 'title',
         children: (
           <span>
-            <p>小云名片</p>
+            <p>小卡片</p>
           </span>
         ),
         className: 'banner5-title l2inb13r3ac-editor_css',
@@ -107,7 +107,7 @@ export const Banner50DataSource = {
         className: 'banner5-explain',
         children: (
           <span>
-            <p>超简单的多重身份名片生成工具</p>
+            <p>链接与成交，为个体赋能</p>
           </span>
         ),
       },
@@ -121,8 +121,7 @@ export const Banner50DataSource = {
                 <span>
                   <span>
                     <p>
-                      面对不同类型的客户；不同圈子的合作伙伴；不同的网络社交环境，每个人都应该拥有不同环境下的不同身份。面对企业客户，你是总裁；面对模特，你是摄影师；面对私域社群，你是组织发起人...
-                      多个身份的你应该拥有多个身份的名片，小云名片为此而生。化繁为简，极致简单。<br />
+                    你的创作可能遍布互联网各个角落，有文字、有图片、有语音、有视频、或者是开源代码。这些创作都是你的标签，这些标签可以很丰富的描述你。小卡通过聚合你的创作突出你的价值，从而产生链接与成交，为个体赋能。<br />
                     </p>
                   </span>
                 </span>
@@ -177,7 +176,7 @@ export const Feature40DataSource = {
         name: 'title',
         children: (
           <span>
-            <p>小云名片特点</p>
+            <p>小卡片特点</p>
           </span>
         ),
         className: 'title-h1 l2inhrfvsm8-editor_css',
@@ -252,7 +251,7 @@ export const Feature40DataSource = {
           children: (
             <span>
               <p>
-                小云名片内置多种精美模板，按横版、竖版、名片用途精细分类，满足你的多场景选择。
+                小卡片内置多种精美模板，按横版、竖版、名片用途精细分类，满足你的多场景选择。
               </p>
             </span>
           ),
@@ -321,7 +320,7 @@ export const Feature20DataSource = {
         <span>
           <span>
             <p>
-              小云名片基于微信生态开发的小程序，无需下载 App
+              小卡片基于微信生态开发的小程序，无需下载 App
               即可扫码体验，遵循即用即离的产品原则。
             </p>
           </span>
@@ -345,7 +344,7 @@ export const Footer10DataSource = {
         title: {
           className: 'logo',
           children:
-            'https://6563-ecard-prod-8gzw5g99e3ec7228-1306153372.tcb.qcloud.la/static/2.svg',
+            'https://6563-ecard-dev-1gt7jripa5d3a742-1306153372.tcb.qcloud.la/static/tinycard-white.svg',
         },
         childWrapper: {
           className: 'slogan',
@@ -354,7 +353,7 @@ export const Footer10DataSource = {
               name: 'content0',
               children: (
                 <span>
-                  <p>小云名片，您的多重身份电子名片。</p>
+                  <p>链接与成交，为个体赋能</p>
                 </span>
               ),
               className: 'l2iocixbtw-editor_css',
@@ -403,7 +402,7 @@ export const Footer10DataSource = {
               href: 'https://tinycard.cn',
               children: (
                 <span>
-                  <p>TinyCard - 你的多重身份名片</p>
+                  <p>TinyCard - 链接与成交，为个体赋能</p>
                 </span>
               ),
               target: '_blank',
