@@ -486,7 +486,7 @@ export const Footer10DataSource = {
     children: (
       <span>
         <span>
-          ©2018 by{' '}
+          ©2022 by{' '}
           <a href="https://tinycard.cn" target="_blank">
             TinyCard
           </a>&nbsp;All Rights Reserved
