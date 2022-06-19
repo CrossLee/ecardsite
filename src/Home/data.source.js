@@ -486,9 +486,9 @@ export const Footer10DataSource = {
       <span>
         <span>
           ©2022 by{' '}
-          <a href="https://tinycard.cn" target="_blank">
+          <a href="https://tinycard.cn" target="_blank" rel="noopener noreferrer">
             TinyCard
-          </a>&nbsp;All Rights Reserved
+          </a>&nbsp;All Rights Reserved &nbsp; <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">苏 ICP 备 2021027628 号 - 2</a>
         </span>
       </span>
     ),
